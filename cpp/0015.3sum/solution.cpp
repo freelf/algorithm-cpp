@@ -37,7 +37,7 @@ public:
                     // 需要去重，否则会有重复的结果
                     while (L < R && nums[L] == nums[L + 1]) L++;
                     while (L < R && nums[R] == nums[R - 1]) R--;
-                    
+
                     L++;
                     R--;
                 }
